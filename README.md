@@ -8,7 +8,7 @@
 An enterprise-grade, machine learning-powered **Banking Fraud Intelligence & Risk Analysis System**. **SecureBank AI** detects fraudulent credit card transactions in real-time using advanced ensemble machine learning techniques, interactive analytics dashboards, and risk probability assessment.
 
 ---
-
+## project link : https://bank-fraud-detection-ai.streamlit.app/
 ## 📌 Executive Summary
 
 Financial fraud costs institutions billions of dollars annually. Detecting fraudulent transactions in modern banking systems is challenging due to extreme class imbalance (less than 0.2% of transactions are fraudulent) and evolving fraud patterns.
