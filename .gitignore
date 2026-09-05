@@ -27,6 +27,8 @@ Thumbs.db
 .streamlit/secrets.toml
 
 # Large/raw datasets
+Dataset/
+data/processed/train_processed.csv
 data/*.csv
 
 # Python build files
