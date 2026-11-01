@@ -1,0 +1,69 @@
+{
+    "system_name": "SecureBank AI - Hybrid Fraud Intelligence",
+    "version": "2.0.0",
+    "updated_at": "2026-11-01T11:15:00+05:30",
+    "models": {
+        "random_forest": {
+            "file": "random_forest.pkl",
+            "type": "Supervised Ensemble Classifier",
+            "n_estimators": 100,
+            "f1_score": 0.722,
+            "recall": 0.7789,
+            "roc_auc": 0.9811,
+            "features_count": 30
+        },
+        "logistic_regression": {
+            "file": "logistic_regression.pkl",
+            "type": "Linear Classifier Baseline",
+            "f1_score": 0.1,
+            "recall": 0.8737,
+            "roc_auc": 0.9626,
+            "features_count": 30
+        },
+        "scaler": {
+            "file": "scaler.pkl",
+            "type": "StandardScaler",
+            "n_features": 30
+        },
+        "isolation_forest": {
+            "file": "isolation_forest.pkl",
+            "type": "Unsupervised Anomaly Detector (Isolation Forest)",
+            "n_estimators": 150,
+            "contamination": 0.003,
+            "roc_auc": 0.9342,
+            "features_count": 30
+        }
+    },
+    "feature_columns": [
+        "Time",
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V5",
+        "V6",
+        "V7",
+        "V8",
+        "V9",
+        "V10",
+        "V11",
+        "V12",
+        "V13",
+        "V14",
+        "V15",
+        "V16",
+        "V17",
+        "V18",
+        "V19",
+        "V20",
+        "V21",
+        "V22",
+        "V23",
+        "V24",
+        "V25",
+        "V26",
+        "V27",
+        "V28",
+        "Amount"
+    ]
+}
